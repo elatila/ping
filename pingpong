@@ -1,0 +1,6 @@
+  - name: Test ping con AWX
+  hosts: sollavm.eastus.cloudapp.azure.com
+
+  tasks:
+  - name: Ping
+    ping:
