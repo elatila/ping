@@ -2,5 +2,4 @@
   - name: Test ping con AWX
     hosts: sollavm.eastus.cloudapp.azure.com
     tasks:
-      - ansible.windows.win_ping:
-  ...
+      - win_ping:
